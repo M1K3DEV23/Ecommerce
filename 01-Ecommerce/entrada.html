@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!-- Informacion sobre el sitio web -->
+<head>
+    <meta charset="UTF-8">
+    <!-- Cierta informacion en el encabezado al navegador -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrada Blog</title>
+    <!-- Normalizar el CSS para todo los navegadores -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Fuentes de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Cargando la hoja de estilos de CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<!-- Aqui se coloca lo que se ve en pantalla -->
+<body>
+    <header>
+        <!-- Headings son para introduccir una nueva seccion -->
+        <!-- Encabezado (Solo se puede poner un h1 en una sola pagina) -->
+        <h1 class="nombre-sitio">Tienda <span>Muebles</span></h1>
+    </header>
+
+    <div class="contenedor-navegacion">
+        <!-- Barra de navagecion -->
+        <nav class="nav-principal contenedor">
+            <!-- Enlances -->
+            <a href="./index.html">Inicio</a>
+            <a href="./nosotros.html">Nosotros</a>
+            <a href="./tienda.html">Tienda</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./galeria.html">Galeria</a>
+            <a href="./contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+    <!-- Pagina principal de la pagina (Solamente 1) -->
+    <main class="contenido-principal contenedor">
+        <!-- Menos importante que el h1 -->
+        <!-- Puede usar N cantidad de h2 -->
+        <h2 class="text-center">Entrada Blog</h2>
+
+        <!-- Entradas del blog -->
+        <article class="entrada contenido-entrada-blog">
+            <div class="imagen">
+                <img src="./assets/img/nosotros.jpg" alt="imagen blog">
+            </div>
+            <!-- Informacion meta del articulo -->
+            <div class="entrada-meta">
+                <p>Fecha: <span>05 de Enero del 2023</span></p>
+                <p>Escrito por: <span>Tienda Muebles</span></p>
+            </div>
+
+            <div class="entrada-blog">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dignissimos ab delectus molestiae sint libero eligendi! Saepe optio magnam ab voluptatibus nulla ea a blanditiis, hic culpa laudantium, veritatis similique.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tempore saepe minima ex aut, alias corrupti vero obcaecati harum reprehenderit voluptatibus aspernatur, incidunt consequuntur reiciendis quos, animi modi accusantium magni.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum blanditiis incidunt libero maiores temporibus! Quis, sunt perferendis ducimus consequuntur aspernatur cum sit! Facere natus voluptatem cumque rem doloremque veniam explicabo.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident adipisci tenetur non dignissimos nemo harum amet debitis repudiandae fugit, ea illum, quis tempora quod blanditiis ab, libero facilis nihil! Laudantium!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius optio illo excepturi, aspernatur voluptates autem. Vitae nobis repudiandae quisquam inventore rerum, nemo, cumque quasi explicabo sit accusantium distinctio nulla atque!</p>
+            </div>
+        </article> <!-- Fin de la entrada -->
+
+    </main>
+
+    <!-- Pie de pagina -->
+    <footer class="site-footer">
+        <div class="grid-footer contenedor">
+            <div>
+                <h3>Categorías</h3>
+                <nav class="footer-menu">
+                    <a href="#">Cocina</a>
+                    <a href="#">Oficina</a>
+                    <a href="#">Jardin</a>
+                    <a href="#">Cochera</a>
+                    <a href="#">Dormitorios</a>
+                </nav>
+            </div>
+            <div>
+                <h3>Sobre Nosotros</h3>
+                <nav class="footer-menu">
+                    <a href="#">Nuestra Historia</a>
+                    <a href="#">Mision, Vision y Valores</a>
+                    <a href="#">Carreras</a>
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos del Servicio</a>
+                </nav>
+            </div>
+            <div>
+                <h3>Soporte</h3>
+                <nav class="footer-menu">
+                    <a href="#">Preguntas Frecuentes</a>
+                    <a href="#">Ayuda en Linea</a>
+                    <a href="#">Confianza y Seguridad</a>
+                </nav>
+            </div>
+        </div>
+        <p class="copyright">Todo los derechos reservados, Tienda Muebles</p>
+    </footer>
+</body>
+</html>
